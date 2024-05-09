@@ -38,6 +38,8 @@
     "react/jsx-props-no-spreading": 0, // TODO: re-evaluate
 
     "react/no-deprecated": 1, // TODO: update to UNSAFE_componentWillReceiveProps
+    "jsx-a11y/control-has-associated-label": "off",
+    "import/no-extraneous-dependencies": "off" //needed as well as inside overrides
   },
 
   "overrides": [
@@ -49,6 +51,7 @@
       "extends": "airbnb",
       "rules": {
         "react/jsx-props-no-spreading": 0,
+        "import/no-extraneous-dependencies": "off", //needed as well as inside rules
         //"import/no-extraneous-dependencies": [2, {
           //"devDependencies": true
         //}],
