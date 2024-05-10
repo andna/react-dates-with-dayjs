@@ -1,5 +1,10 @@
 const dayjs = require('dayjs');
 
+require('dayjs/locale/es');
+
+// tests need Spanish (es) locale
+// a list of available locale keys can be found on dayjs/locale.json
+
 const plugins = [
   require('dayjs/plugin/badMutable'),
   require('dayjs/plugin/localeData'),
